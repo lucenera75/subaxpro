@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correct company xmlData matches snapshot 1`] = `
+Object {
+  "description": "..is awesome",
+  "id": "1",
+  "name": "MWNZ",
+}
+`;
+
+exports[`non correct company xmlData throws an error and does not return a result 1`] = `"Unable to parse correctly xmlData"`;
