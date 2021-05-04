@@ -51,7 +51,7 @@ app.get('/companies/:id', async (req, res) => {
 app.listen(port, () => {
 	console.log(`
   -----------------------------------
-	Listening port ${3000}
+	Listening port ${port}
   ------------------------------------
 	`);
 });
